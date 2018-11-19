@@ -1,3 +1,10 @@
 type Query {
   packageName: String!
+  repositories: [Repository!]
+}
+
+type Repository {
+  id: Int!
+  name: String!
+  html_url: String!
 }

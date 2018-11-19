@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 const { GraphQLServer } = require('graphql-yoga');
 
 const typeDefs='./src/schema.graphql';
